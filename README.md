@@ -50,3 +50,6 @@ sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -
 pm2 start homebridge
 pm2 save
 ```
+
+## Developer Notes
+* https://github.com/KhaosT/HAP-NodeJS - the low level Homekit layer under https://github.com/nfarina/homebridge
