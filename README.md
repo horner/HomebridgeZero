@@ -85,3 +85,20 @@ vi .homebridge/config.json
 
 ## Developer Notes
 * https://github.com/KhaosT/HAP-NodeJS - the low level Homekit layer under https://github.com/nfarina/homebridge
+
+
+## Pics
+
+![Run Homebrew](img/1.jpg)
+
+![Scan Code](img/2.png)
+
+![Setup in phone](img/3.png)
+
+![Configure](img/4.png)
+
+![Wire](img/5.png)
+
+![Solder](img/6.jpg)
+
+![Move](img/working.mov)
