@@ -33,7 +33,10 @@ sudo apt-get install -y curl nodejs npm libavahi-compat-libdnssd-dev
 sudo npm install -g --unsafe-perm homebridge
 sudo npm install -g npm@latest
 sudo npm update npm -g
+```
 
+## Install GPIO control plugin for Homebridge
+```
 cd /tmp; wget https://lion.drogon.net/wiringpi-2.50-1.deb; sudo dpkg -i wiringpi-2.50-1.deb; cd -
 sudo npm install -g --unsafe-perm homebridge-gpio-device
 ```
@@ -49,6 +52,35 @@ pm2 startup
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u pi --hp /home/pi
 pm2 start homebridge
 pm2 save
+```
+
+## Configure GPIO pins
+```
+vi .homebridge/config.json
+
+{
+  "bridge": {
+    "name": "Name",
+    "username": "Mac",
+    "port": 51826,
+    "pin": "Some-pin"
+  },
+
+  "description": "Apartment automation system via RaspberryPi Zero",
+  "accessories": [
+		{
+			"accessory": "GPIODevice",
+			"name": "Roller Shade",
+			"type": "WindowCovering",
+			"inverted": true,
+			"pins": [22,21],
+			"shiftDuration": 1,
+			"initPosition": 99
+		}
+  ],
+
+  "platforms": [ ]
+}
 ```
 
 ## Developer Notes
