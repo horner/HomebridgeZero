@@ -42,6 +42,8 @@ sudo npm install -g --unsafe-perm homebridge-gpio-device
 ```
 
 ## Run Homebridge once and pair
+(see pics below)
+
 `homebridge`
 
 ## Make it run on boot
@@ -85,7 +87,10 @@ vi .homebridge/config.json
 
 ## Developer Notes
 * https://github.com/KhaosT/HAP-NodeJS - the low level Homekit layer under https://github.com/nfarina/homebridge
-
+* Note there is a [bug](https://github.com/lathiat/avahi/issues/117) with avahi-daemon that causes the name to disappear from the lan when wifi is lost or dhcp expires and renews.
+** a fix is to reboot (yuck)
+** monitor the network and reboot
+** TBD
 
 ## Pics
 
