@@ -1,6 +1,8 @@
 
 # Setting up Homebridge
 
+* Rechargeable Wireless Tubular Roller Shade Motor Kit with Remote Control for Motorized Electric Roller Blind Shades, 1.5 inch Tube 
+** https://www.amazon.com/dp/B074TKQ8DJ/ref=cm_sw_r_cp_api_i_jIBrDbCPEMNQ0
 * Modified from https://github.com/nfarina/homebridge/wiki/Easy-Install-Raspberry-PI-(With-Start-with-boot)
 * Downloaded Raspbian Lite https://www.raspberrypi.org/downloads/raspbian/
 * Install https://github.com/dubocr/homebridge-gpio-device#readme
