@@ -93,6 +93,7 @@ vi .homebridge/config.json
 ** a fix is to reboot (yuck)
 ** monitor the network and reboot
 ** TBD
+* A 433Mhz Ardrino project https://github.com/akirjavainen/markisol
 
 ## Pics
 
