@@ -25,6 +25,7 @@ diskutil eject /dev/disk2
   * set wifi
   * enable ssh
   * timezone
+* disable ipv6 https://github.com/homebridge/homebridge/issues/2089
 
 ## Run package install
 
