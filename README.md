@@ -111,4 +111,6 @@ vi .homebridge/config.json
 
 ![Solder](img/6.jpg)
 
-![Move](img/working.mov)
+
+Click below to watch:
+[![Watch the video](https://img.youtube.com/vi/JUSCbY_hryk/maxresdefault.jpg)](https://youtu.be/JUSCbY_hryk)
