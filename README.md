@@ -1,5 +1,8 @@
 
+
 # Setting up Homebridge
+
+Just some project to keep track of how I made a roller shade for HomeBridge
 
 * Rechargeable Wireless Tubular Roller Shade Motor Kit with Remote Control for Motorized Electric Roller Blind Shades, 1.5 inch Tube 
 ** https://www.amazon.com/dp/B074TKQ8DJ/ref=cm_sw_r_cp_api_i_jIBrDbCPEMNQ0
